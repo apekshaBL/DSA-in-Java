@@ -33,7 +33,5 @@ public class SortedOrNotInDecreasingOrder {
         PrintArray(array);
         System.out.println("The above array is Sorted in Decreasing Order this is "+ SortedOrNot(array));
 
-
-
     }
 }

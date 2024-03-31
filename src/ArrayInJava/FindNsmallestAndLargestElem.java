@@ -11,11 +11,9 @@ public class FindNsmallestAndLargestElem {
     public static int[] NSmallestNLargest(int []array,int a,int b){
         int n=array.length;
         Arrays.sort(array);
-        int []ans={array[a-1],array[b]};
+        int []ans={array[a-1],array[n-b]};
         return ans;
-
     }
-
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the size of array");

@@ -34,8 +34,5 @@ public class NumberOfTripletSumEqualToNum {
         int a=sc.nextInt();
         System.out.println("The number of triple pairs of " +a+ " is " +countPair(array,a));
 
-
-
-
     }
 }

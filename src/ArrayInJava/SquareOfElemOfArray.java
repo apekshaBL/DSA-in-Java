@@ -39,7 +39,5 @@ public class SquareOfElemOfArray {
         int [] ans=SquareOfArray(array);
         System.out.println("Sorted array is");
         PrintArray(ans);
-
-
     }
 }

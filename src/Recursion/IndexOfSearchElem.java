@@ -9,7 +9,7 @@ public class IndexOfSearchElem {
         PrintArray(array,idx+1);
     }
     static int Searched(int[]array,int target,int idx){
-        int i=idx;
+
         if(idx>=array.length-1){
             return -1;
         }

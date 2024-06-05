@@ -7,8 +7,6 @@ public class PowerOfNumber {
         }
         int n=Power(p,q-1);
         return n*p;
-
-
     }
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);

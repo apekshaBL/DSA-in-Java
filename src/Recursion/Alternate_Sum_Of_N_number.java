@@ -20,6 +20,5 @@ public class Alternate_Sum_Of_N_number {
         int n=sc.nextInt();
         System.out.println(Sum(n));
 
-
     }
 }

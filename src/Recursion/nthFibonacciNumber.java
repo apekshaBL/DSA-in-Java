@@ -12,7 +12,6 @@ public class nthFibonacciNumber {
         int p=NthNumber(n-2);
         int Num=p+m;
         return Num;
-
     }
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);

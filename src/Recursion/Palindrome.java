@@ -7,8 +7,8 @@ public class Palindrome {
             return "";
         }
         String ans=Check(name,idx+1);
-        String reverse=ans+name.charAt(idx);
-        return reverse;
+
+        return ans+name.charAt(idx);
     }
     public static void main(String[]args){
         Scanner sc =new Scanner(System.in);

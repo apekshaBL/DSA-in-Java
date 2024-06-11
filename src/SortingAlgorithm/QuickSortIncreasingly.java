@@ -61,7 +61,5 @@ public class QuickSortIncreasingly {
         Quick_Sort(array,0,n-1);
         PrintArray(array);
 
-
-
     }
 }

@@ -6,7 +6,6 @@ public class SumOfSubSets {
             System.out.print(array[i]+" ");
         }
         System.out.println();
-
     }
     static void SumOfSubset(int[]array,int n,int idx,int sum){
         if(idx>=n){
@@ -15,7 +14,6 @@ public class SumOfSubSets {
         }
         SumOfSubset(array,n,idx+1,sum+array[idx]);
         SumOfSubset(array,n,idx+1,sum);
-
     }
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);

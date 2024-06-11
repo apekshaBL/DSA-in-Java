@@ -4,7 +4,6 @@ public class ByMergeSortInDecreasingOrder {
     static void PrintArray(int[]array){
         for(int i=0;i<array.length;i++){
             System.out.print(array[i]+" ");
-
         }
     }
     static void merge(int[]array,int l,int mid,int r){

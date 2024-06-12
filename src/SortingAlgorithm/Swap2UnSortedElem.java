@@ -15,6 +15,9 @@ public class Swap2UnSortedElem {
     static void Sort(int[]array){
         int x=-1;int y=-1;
        int n=array.length;
+       if(n<=1){
+           return;
+       }
        for(int i=1;i<n;i++){
            if(array[i-1]>array[i]){
                if(x==-1){

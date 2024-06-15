@@ -21,8 +21,6 @@ public class Duplicate {
                 else{
                     end=mid-1;
                 }
-
-
             }
             else{
                 if (target >= array[str] && target < array[mid]) {

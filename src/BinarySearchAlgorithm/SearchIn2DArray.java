@@ -19,7 +19,7 @@ public class SearchIn2DArray {
         int end=n*m-1;
         while(str<=end) {
             int mid = str + (end - str) / 2;
-            int midEle = array[mid / m][mid % m];                //row number array[mid/m] and column number[mid%m]
+            int midEle = array[mid / m][mid % m];//row number array[mid/m] and column number[mid%m]
             if (midEle == target) {
                 return midEle;
             } else if (target < midEle) {

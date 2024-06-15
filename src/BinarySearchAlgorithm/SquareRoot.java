@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class SquareRoot {
     static int  squareRoot(int m){
-
         int str=0;
         int end=m;
         int square_root=-1;

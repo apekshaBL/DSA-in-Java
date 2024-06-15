@@ -1,6 +1,12 @@
 package LinkedList;
 
 public class DisplayLinkedList {
+    public static void Display(Node head){
+        while(head!=null){
+            System.out.print(head.data+" ");
+            head=head.next;
+        }
+    }
     public static class Node{
         int data;
         Node next;
@@ -16,6 +22,7 @@ public class DisplayLinkedList {
         Node e=new Node(25);
         Node f=new Node(30);
         Node g=new Node(35);
+        Node h=new Node(40);
         //a=>b=>c=>d=>e=.f
         a.next=b;
         b.next=c;
@@ -23,16 +30,18 @@ public class DisplayLinkedList {
         d.next=e;
         e.next=f;
         f.next=g;
+        g.next=h;
         Node temp=a;
 //        for(int i=0;i<6;i++){
 //            System.out.print(temp.data + " ");
 //            temp=temp.next;
 //        }
 
-        while(temp!=null){
-            System.out.print(temp.data+" ");
-            temp=temp.next;
-        }
+//        while(temp!=null){
+//            System.out.print(temp.data+" ");
+//            temp=temp.next;
+//        }
+        Display(temp);
 
     }
 }

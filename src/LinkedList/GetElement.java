@@ -16,6 +16,10 @@ public class GetElement {
            Node temp=Head;
            if(temp==null){
                System.out.println("Empty linked list");
+           }
+           else if(idx>size(temp)||idx<0){
+               System.out.println("incorrect index");
+               return -1;
 
            }
            else{
@@ -27,6 +31,15 @@ public class GetElement {
            return temp.data;
 
        }
+
+    }
+    static int size(Node Head){
+        int count=0;
+        while(Head!=null){
+            count=count+1;
+            Head=Head.next;
+        }
+        return count;
     }
     public static void Display(Node Head){
         while(Head!=null){
@@ -50,7 +63,7 @@ public class GetElement {
         linked_list list=new linked_list();
         list.Head=a;
         System.out.println("Get the element of linked list of given index");
-        System.out.println(list.getElem(0));
+        System.out.println(list.getElem(9));
 
     }
 }

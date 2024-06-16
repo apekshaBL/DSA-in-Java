@@ -61,7 +61,7 @@ public class InsertAtAnyIndex {
         Display(temp);
         linked_list list=new linked_list();
         list.Head=a;
-        list.insertAt(0,2);
+        list.insertAt(6,2);
         list.display();
        
 
